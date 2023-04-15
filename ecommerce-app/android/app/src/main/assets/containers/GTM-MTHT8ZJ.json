@@ -1,0 +1,220 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2021-09-14 06:58:44",
+    "containerVersion": {
+        "path": "accounts/6004589412/containers/51284230/versions/2",
+        "accountId": "6004589412",
+        "containerId": "51284230",
+        "containerVersionId": "2",
+        "name": "Basic App Setup",
+        "description": "- basic app setup",
+        "container": {
+            "path": "accounts/6004589412/containers/51284230",
+            "accountId": "6004589412",
+            "containerId": "51284230",
+            "name": "Nestro Android Application",
+            "publicId": "GTM-MTHT8ZJ",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1631253097323",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6004589412/containers/51284230/workspaces?apiLink=container"
+        },
+        "tag": [
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "tagId": "6",
+                "name": "UA - Screen View",
+                "type": "ua",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "overrideGaSettings",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackType",
+                        "value": "TRACK_SCREENVIEW"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "gaSettings",
+                        "value": "{{GAC - Global Setting}}"
+                    }
+                ],
+                "fingerprint": "1631256167639",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "triggerId": "5",
+                "name": "ce - screen_view",
+                "type": "ALWAYS",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event Name}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "screen_view"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1631256214612"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "variableId": "3",
+                "name": "dl - screen_name",
+                "type": "md",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventType",
+                        "value": "CUSTOM"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "key",
+                        "value": "screen_name"
+                    }
+                ],
+                "fingerprint": "1631256089258"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "variableId": "4",
+                "name": "GAC - Global Setting",
+                "type": "gas",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "screenName"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{dl - screen_name}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "collectAdid",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "dimension",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "index",
+                                        "value": "999"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dimension",
+                                        "value": "{{Container ID}}-{{Container Version}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "trackingId",
+                        "value": "UA-188453135-2"
+                    }
+                ],
+                "fingerprint": "1631256170543"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6004589412",
+                "containerId": "51284230",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1631602708332",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6004589412/containers/51284230/versions/2?apiLink=version"
+    }
+}

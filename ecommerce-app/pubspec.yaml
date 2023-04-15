@@ -1,0 +1,150 @@
+name: Nesto
+description: Nesto e-Commerce application
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.1.1+266
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #Dont update to v4 Now
+  flutter_screenutil: ^3.2.0
+  url_launcher: ^6.0.4
+  provider: ^5.0.0
+  http: ^0.13.3
+  #Do not update
+  intl: ^0.17.0
+  optimized_cached_image: ^2.0.1
+  flutter_swiper: ^1.1.6
+  waterfall_flow: ^3.0.1
+  shared_preferences: ^2.0.6
+  google_maps_flutter: ^2.0.6
+  firebase_core: ^1.3.0
+  firebase_analytics: ^8.1.2
+  firebase_crashlytics: ^2.0.6
+  firebase_dynamic_links: ^2.0.6
+  firebase_remote_config: ^0.10.0+2
+  firebase_performance: ^0.7.0+5
+  firebase_messaging: ^10.0.2
+  lottie: ^1.0.1
+  flutter_easyloading: ^3.0.0
+  flutter_vibrate: ^1.0.0
+  scrollable_positioned_list: ^0.1.10
+  #Orders
+  timelines: ^0.1.0
+  grouped_list: ^4.0.0
+  expandable: ^5.0.1
+  country_code_picker: ^2.0.1
+  #DO NOT UPDATE THIS
+  timer_count_down: ^1.0.4+1
+  flutter_statusbarcolor: ^0.2.3
+  bottom_navy_bar:
+    git:
+      url: https://github.com/BasilArackal/bottom_navy_bar.git
+      ref: nesto2
+  dio: ^4.0.0
+  dio_cookie_manager: ^2.0.0
+  webview_flutter: ^2.0.8
+  flutter_flavor: ^3.0.0
+  flutter_svg: ^0.22.0
+  transparent_image: ^2.0.0
+  easy_rich_text: ^0.5.6
+  top_snackbar_flutter: ^1.0.0
+  barcode_widget: ^2.0.1
+  #Maps
+  google_maps_place_picker: ^2.0.0-nullsafety.3
+  pin_code_fields: ^7.2.0
+  shape_of_view: ^1.0.2
+  location_permissions: ^4.0.0
+  flutter_open_whatsapp: ^0.1.2
+  #Invite friend
+  share: ^2.0.4
+  #Build number
+  package_info: ^2.0.2
+  cupertino_icons: ^1.0.3
+  # flutter_svg: ^0.19.3
+  adaptive_dialog: ^1.0.0
+  extended_image: ^4.1.0
+  showcaseview: ^1.0.0
+  logger: ^1.0.0
+  connectivity: ^3.0.6
+  get_it: ^7.1.3
+  carousel_slider: ^4.0.0
+  device_info: ^2.0.2
+  simple_html_css: ^3.0.1
+  shimmer: ^2.0.0
+  animated_text_kit: ^4.2.1
+  visibility_detector: ^0.2.2
+  badges: ^2.0.1
+  another_flushbar: ^1.10.24
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+  dependency_validator: ^3.1.0
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon_new.png"
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/images/homepage/
+    - assets/icons/
+    - assets/animations/
+    - assets/svg/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/sf_pro_display.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

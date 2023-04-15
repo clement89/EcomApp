@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "711047430980",
+    "project_id": "nesto-ecommerce",
+    "storage_bucket": "nesto-ecommerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711047430980:android:ebb5718458a4b02da74d11",
+        "android_client_info": {
+          "package_name": "com.ALWafa.Nesto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711047430980-b6bo2ap2tbdmjikcgr93e9klg2o29faq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ALWafa.Nesto",
+            "certificate_hash": "5445d633d48fe956193afe898d8e3b6eb3029825"
+          }
+        },
+        {
+          "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RivVHcxyNSe0utT1AT0TwSLqko5jCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711047430980-jom2jkf7ilvl7kstu6e0ipeg3hen0h1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AlWafa.Nesto",
+                "app_store_id": "910822640"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711047430980:android:d65e6af6a4d056eea74d11",
+        "android_client_info": {
+          "package_name": "com.nesto.deliver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711047430980-1lkklnen399icqarfpvukt020247g28c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nesto.deliver",
+            "certificate_hash": "1ca36bed1d8a548903e51bcc439fa9f574d051d9"
+          }
+        },
+        {
+          "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RivVHcxyNSe0utT1AT0TwSLqko5jCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711047430980-jom2jkf7ilvl7kstu6e0ipeg3hen0h1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AlWafa.Nesto",
+                "app_store_id": "910822640"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711047430980:android:305bf930e6687e2ea74d11",
+        "android_client_info": {
+          "package_name": "com.nesto.pickandpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RivVHcxyNSe0utT1AT0TwSLqko5jCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711047430980-jom2jkf7ilvl7kstu6e0ipeg3hen0h1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AlWafa.Nesto",
+                "app_store_id": "910822640"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711047430980:android:125bb364419ceab0a74d11",
+        "android_client_info": {
+          "package_name": "com.nesto.specialworker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RivVHcxyNSe0utT1AT0TwSLqko5jCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711047430980-jom2jkf7ilvl7kstu6e0ipeg3hen0h1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AlWafa.Nesto",
+                "app_store_id": "910822640"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711047430980:android:703ec3d4b4474972a74d11",
+        "android_client_info": {
+          "package_name": "shop.nesto.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1RivVHcxyNSe0utT1AT0TwSLqko5jCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711047430980-j5cr20vk85ainfkavcktmbl4rd3kdore.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711047430980-jom2jkf7ilvl7kstu6e0ipeg3hen0h1v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.AlWafa.Nesto",
+                "app_store_id": "910822640"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
